@@ -2,6 +2,7 @@
 	<div class="container">
 		<div class="box-coverage row">
 			<div id="owl-demo">
+			tin moi
 			<?php 
 				$i = 1 ; while ( $hot_news -> have_posts() ) : $hot_news -> the_post();
 			?>
