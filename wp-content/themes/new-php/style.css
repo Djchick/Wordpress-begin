@@ -1,0 +1,212 @@
+/**
+ * Theme Name:  Wordpress Begin
+ * Theme URI:   http://blog-wordpress.esy.es
+ * Author:      Wordpress Team
+ * Author URI:  https://github.com/Djchick
+ * Description: Website học wordpress
+ * Version:     1.0
+ * Text Domain: newphp
+ * Domain Path: /languages/
+ * Tags:        black, blue, photoblogging
+ *
+ */
+
+
+/*---------------------------------------------------------
+ Contents
+-----------------------------------------------------------
+1. Code header
+2. Reset
+3. Structure
+4. Elements
+5. Media and classes
+6. Posts
+7. Pages
+8. Widgets
+9. Sidebars
+10. Comments
+11. Forms and buttons
+12. Browser support
+-------------------------------------------------------- */
+
+/*---------------------------------------------------------
+1. Code header
+-------------------------------------------------------- */
+body{
+	background: #f8f8f8;
+}
+#header{
+	background: #fff;
+}
+#menu-main-menu{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    position: relative;
+    z-index: 999;
+}
+.logo-theme{
+	margin: 15px 0;
+}
+#menu-main-menu li{
+	display: inline-block;
+	position: relative;
+}
+nav.primary-menu{
+	background: #28B779;
+	height: 46px;
+}
+#menu-main-menu li a {
+    color: #FFF;
+    padding: 13px 20px;
+    display: block;
+    text-decoration: none;
+}
+#menu-main-menu li a:hover{
+	background: #89D942;
+}
+#menu-main-menu > li:hover ul.sub-menu{
+	display: block;
+}
+ul.sub-menu {
+    position: absolute;
+    top: 100%;
+    width: 300px;
+    background: none repeat scroll 0% 0% rgb(221, 221, 221);
+    left: 0px;
+    padding: 0px;
+    display: none;
+}
+ul.sub-menu li{
+	width:100%;
+}
+#menu-main-menu li ul.sub-menu li a{
+	color: #999;
+}
+#menu-main-menu li ul.sub-menu li:hover a{color: #fff;}
+.box-coverage {
+    margin: 0px -15px;
+    background: #fff;
+    padding: 15px;
+}
+.first-post-63{
+	margin-bottom: 15px;
+	float: left;
+	width:100%; 
+}
+.first-post-img-63 img{
+	width : 100%;
+	height: 350px;
+}
+.blog-img{
+	width:60%;
+	float: left;
+	padding: 0px 15px 0px 0px;
+}
+.blog-content{
+	width:40%;
+	float: left;
+	padding: 0px 0px 0px 15px;
+}
+.blog-content h2{
+    margin: 0px;
+}
+.blog-content h2 a{
+    font-size: 19px;
+    color: #222;
+}
+#owl-demo .owl-controls{
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+.entry-meta{
+	border-top: 1px solid #ebebeb;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.category{
+    padding: 15px 0px;
+    border-top: 1px solid #ebebeb;
+    margin-top: 15px;
+}
+.box-list-categories{
+	width: 70%;
+	float: left;
+}
+.sidebar-col{
+	width: 30%;
+	float: left;
+}
+.box-lecture-1{
+	float: left;
+	width: 50%;
+	padding: 15px;
+}
+.title_category{
+    padding: 15px;
+    background: none repeat scroll 0% 0% rgb(40, 183, 121);
+}
+.title_category a{color:#fff;}
+
+.box-lecture-img-67 img{
+	width :100%;
+	height: 200px;
+}
+.box-lecture-content h2 a{
+	font-size: 19px;
+	color:#444;
+}
+.box-lecture-content p{
+	color: #888;
+}
+.box-lecture-content h2{
+	margin: 10px 0;
+}
+.post-mar{
+	margin-bottom:30px;
+}
+.sidebar-content{
+	padding: 15px;
+	list-style: none;
+}
+.sidebar-content #searchform label{
+	display: none;
+}
+h3.widgettitle{
+    margin: 0px;
+    padding: 15px 15px 15px 0px;
+    border-bottom: 2px solid #333;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#searchform{
+    position: relative;
+}
+#searchform input[type=text]{
+    height: 38px;
+    border-radius: 0px;
+    border: none;
+    background: #eee;
+    width: 100%;
+}
+#searchform input[type=submit]{
+    position: absolute;
+    right: 0px;
+    margin: 5px;
+    border: none;
+    height: 29px;
+    padding: 0px 15px;
+    font-size: 14px;
+}
+#search-3, #recent-posts-3, #categories-3, #tag_cloud-2, #calendar-2{
+	margin-bottom: 30px; 
+}
+#recent-posts-3 ul{
+    margin: 13px;
+    padding: 0px;
+}
+#recent-posts-3 ul li{ margin-bottom: 5px;}
+#recent-posts-3 ul li a{ color: #222; }
+.post-date{color: #888;}
